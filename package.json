@@ -1,0 +1,25 @@
+{
+  "name": "graphqlprac",
+  "version": "1.0.0",
+  "description": "This is a practice git repository for the the following course.\r Learn and master GraphQL by building real web apps with React and Node\r https://www.udemy.com/course/graphql-with-react-course/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngbo/graphQLprac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngbo/graphQLprac/issues"
+  },
+  "homepage": "https://github.com/youngbo/graphQLprac#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "lodash": "^4.17.21"
+  }
+}
