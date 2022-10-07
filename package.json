@@ -1,30 +1,44 @@
 {
-  "name": "graphqlprac",
+  "name": "lyrical",
   "version": "1.0.0",
-  "description": "This is a practice git repository for the the following course.\r Learn and master GraphQL by building real web apps with React and Node\r https://www.udemy.com/course/graphql-with-react-course/",
+  "description": "Starter point for a graphQL course",
   "main": "index.js",
-  "scripts": {
-    "json:server": "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon server.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngbo/graphQLprac.git"
+    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+  },
+  "scripts": {
+    "dev": "nodemon index.js --ignore client"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/youngbo/graphQLprac/issues"
-  },
-  "homepage": "https://github.com/youngbo/graphQLprac#readme",
   "dependencies": {
-    "axios": "^1.0.0",
-    "express": "^4.18.1",
+    "@apollo/client": "^3.4.1",
+    "axios": "^0.21.1",
+    "connect-mongo": "^4.4.1",
+    "css-loader": "^6.2.0",
+    "express": "^4.17.1",
     "express-graphql": "^0.12.0",
-    "graphql": "^15.8.0",
-    "json-server": "^0.17.0",
+    "express-session": "^1.17.2",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.12.5",
+    "html-webpack-plugin": "^5.3.2",
     "lodash": "^4.17.21",
-    "nodemon": "^2.0.20"
+    "mongoose": "^5.13.5",
+    "nodemon": "*",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "^5.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.1",
+    "webpack-dev-middleware": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2"
   }
 }
